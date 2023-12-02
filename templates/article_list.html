@@ -14,6 +14,7 @@
             <div class="card-body">
                 {{ article.body }}
             </div>
+            <p><a href="{% url 'article_edit' article.pk %}">Edit</a></p>
         </div> 
 
     {% endfor %}   
